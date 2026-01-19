@@ -31,8 +31,7 @@ export default function AvailablePlaces({ onSelectPlace }) {
   const { 
     isFetching, 
     error, 
-    fetchedData: availablePlaces, 
-    setFetchedData: setAvailablePlaces 
+    fetchedData: availablePlaces
   } = useFetch(fetchSortedPlaces,[]);
 
   useEffect(() => {
